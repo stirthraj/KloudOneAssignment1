@@ -1,0 +1,332 @@
+*{
+	box-sizing: border-box;
+}
+img:hover{
+	opacity: 0.5;
+}
+.mainhead-item5:hover{
+    background-color: white;
+    border:1px solid black;
+    width: auto;
+    padding: 2px;
+    color:black;
+}
+
+.tophead{
+	display: flex;
+	flex-wrap: wrap;
+	background-color:blue;
+	padding: 5px;
+	justify-content: center;
+	color:white;
+}
+
+.mainhead{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background-color: black;
+	color:white;
+	padding: 5px;
+	font-size: 1em;
+	align-content: space-between;
+}
+@media only screen and (min-width: 600px)
+{
+	.collapsible{
+		width: 100%;
+	}
+}
+
+.collapsible{
+	background-color: black;
+	cursor: pointer;
+	border:none;
+	outline: none;
+}
+.collapsible>div{
+	width: 30px;
+	height: 5px;
+	background-color: white;
+	margin:6px 0px;
+}
+.active,.collapsible:hover{
+	background-color: blue;
+}
+.mainhead{
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+}
+
+
+.mainhead-item1{
+	width: 500px;
+}
+.mainhead-item2{
+	width: 100px;
+}
+.mainhead-item3{
+	width: 100px;
+}
+.mainhead-item4{
+	width: 100px;
+}
+.bodysection{
+	display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+.bodysection-item1{
+    padding: 5px;
+}
+.bodysection-item2{
+	font-size: 2em;
+}
+
+
+.bodysection2{
+	display: flex;
+	flex-wrap: wrap;
+}
+.bodysection2>div{
+width:500px;
+padding: 30px;
+}
+
+.text{
+	display: flex;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+}
+.text>div{
+  width: 500px;
+}
+.text>a{
+	padding: 5px;
+	box-sizing: border-box;
+	border:1px solid black;
+}
+.fit{
+	height: 400px;
+	width: 100%;
+}
+.bg-design{
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	background-image: linear-gradient(to right,white,blue,red);
+	height: 400px;
+	width: 100%;
+}
+.bg-text{
+	display: flex;
+	align-items: flex-start;
+}
+.design{
+	display: flex;
+	align-items: flex-end;
+	height: 300px;
+	width: 100%;
+}
+.d-img{
+	background-image: url("wave.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 257px;
+	width:100%;
+	object-fit: fill;
+}
+
+
+
+.content{
+	width: 80%;
+	margin-left: 10%;
+}
+
+
+.imggallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imggallery>div{
+	width: 333px;
+	margin: 10px;
+	padding: 10px;
+}
+.imggallery>.txt{
+	width: 333px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.imggallery>.img{
+	margin: 10px;
+	padding: 10px;
+	background-image: url(https://lh3.googleusercontent.com/Fp59OWd6npguiyJm3p-9f7M1jWEKWsGZlRS84SUdODByLhwWA2YaVTEq9U3n52aCN7QFqvBrgSs4qXD3b7n1zlQqdSHY7E0=s600);
+    height: 240px;
+    width: 320px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Grid Section*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+	background-color: white;
+}
+.grid-container >div{
+	box-sizing: border-box;
+	text-align: center;
+	border:1px solid black;
+	}
+.grid-item4{
+	grid-column: 1/3;
+}
+.grid-item6{
+	grid-column: 1/4;
+	grid-row: 1/3;
+}
+.grid-item2{
+	grid-row: span 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Flex Section*/
+.headsection{
+	display:flex;
+	flex-direction: row-reverse;
+	justify-content: right;
+	color:blue;
+	background-image: linear-gradient(to left,white,lightblue);
+}
+.headsection>div{
+	padding: 10px;
+	border:1px solid black;
+}
+/*body section*/
+.bodysection{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-image: linear-gradient(to right,white,lightblue); 
+}
+.bodysection>div{
+	border:1px solid blue;
+	padding: 10px;
+}
+.flex-item4{
+	width: 100px;
+}
+.flex-item5{
+	width: auto;
+}
+.flex-item6{
+	width: 100px;
+}
+/*Footer section*/
+.footersection{
+	display:flex;
+	flex-direction: left;
+	background-color:black;
+	justify-content: center;
+	color:white;
+	font-weight: bolder;
+}
+.footersection>div{
+	padding:100px 10px;
+}
+/*flex-item4 section*/
+.flex-item4{
+	display: flex;
+	flex-direction: column;
+	color:blue;
+}
+/*flex-item6 section*/
+.flex-item6{
+	display: flex;
+	flex-direction: column;
+	color:blue;
+}
+button:hover{
+	font-weight: bolder;
+	color: blue;
+}
+/*abc section*/
+.abc{
+	display: flex;
+	align-items: flex-end;
+	border:2px solid blue;
+	height: 100px;
+}
+.abc>div{
+	box-sizing: border-box;
+	background-color: #8bc34a;
+	color:white;
+}
+.abc-item1{font-size: 2em;}
+.abc-item6{font-size: 2em;}
